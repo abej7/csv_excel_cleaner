@@ -1,0 +1,11 @@
+# 主言語として Python を明示
+*.py linguist-language=Python
+
+# CSS は外部ライブラリとして扱う（統計から除外）
+*.css linguist-vendored
+
+# 画像・ドキュメントファイルは言語統計に含めない
+*.png linguist-documentation
+*.jpg linguist-documentation
+*.csv linguist-documentation
+*.xlsx linguist-documentation
