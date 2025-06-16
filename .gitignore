@@ -1,0 +1,15 @@
+# 仮想環境フォルダ
+myenv/
+
+# アップロード・出力ファイル
+input/
+outputs/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# VSCode設定（人によっては除外）
+.vscode/
+
+.env
