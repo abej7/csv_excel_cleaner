@@ -46,8 +46,16 @@ python csv_excel_cleaner_app.py
 ---
 
 ## 🖼 画面イメージ
-
-![UI Image](./screenshot.png)
+### 1. 初期画面
+![UI Image](./images/ScreenCapture_01.png)
+### 2. データ取り込み（EXCEL又はCSV）
+![UI Image](./images/ScreenCapture_02.png)
+### 3. 作業イメージ
+![UI Image](./images/ScreenCapture_03.png)
+### 4. データ出力（EXCEL又はCSV）
+![UI Image](./images/ScreenCapture_04.png)
+### 5. 入出力イメージ
+![UI Image](./images/ScreenCapture_05.png)
 
 ---
 
@@ -67,6 +75,9 @@ python csv_excel_cleaner_app.py
 
 - UIは`ttkbootstrap`を使用しており、テーマ選択機能により見た目の印象を変更可能です。
 - 読み込んだデータはリアルタイムで表示・編集できます。
+- このツールは `pandas` を使用しているため、**列単位や行単位の処理を自由にカスタマイズ**できます。
+  - 例：特定列の値の変換、行ごとの条件分岐、集計列の追加など
+  - GUIや処理ロジックを拡張してポートフォリオや業務用ツールにも応用可能です。
 
 ---
 
